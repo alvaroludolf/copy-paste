@@ -1,0 +1,4 @@
+rootProject.name = 'copy-paste'
+
+include ':copy-paste-core', ':copy-paste-web'
+

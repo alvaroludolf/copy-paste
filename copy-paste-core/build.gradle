@@ -2,15 +2,7 @@ plugins {
     id 'java-library'
 }
 
-group = 'br.com.loom'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
-
-repositories {
-    // Use jcenter for resolving dependencies.
-    // You can declare any Maven/Ivy/file repository here.
-    jcenter()
-}
 
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
@@ -18,8 +10,11 @@ dependencies {
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:28.0-jre'
-    implementation ''
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+}
+
+test {
+    useJUnitPlatform()
 }
