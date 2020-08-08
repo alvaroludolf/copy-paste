@@ -31,4 +31,4 @@ bin
 .project
 .gradle
 gradle
-gradlew
+gradlew*

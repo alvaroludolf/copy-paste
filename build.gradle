@@ -22,9 +22,11 @@ allprojects {
     }
 }
 
-
 dependencies {
+    testCompile 'org.junit.jupiter:junit-jupiter-api:5.6.2'
+
     compileOnly 'org.projectlombok:lombok:1.18+'
+
     annotationProcessor 'org.projectlombok:lombok:1.18+'
 }
 
