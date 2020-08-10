@@ -1,5 +1,6 @@
 package br.com.loom.copypaste;
 
+import br.com.loom.copypaste.message.Message;
 import br.com.loom.copypaste.step.Entrypoint;
 
 import java.util.Map;
