@@ -23,7 +23,6 @@ public class CopyPaste {
                         process -> process.getName(),
                         process -> new Step())
                 );
-
     }
 
     public Message process(String process, Message message) {

@@ -21,19 +21,19 @@ public class Step {
 
     private static final Logger log = LoggerFactory.getLogger(Step.class);
 
+    protected Map<String, String> properties = new HashMap<>();
+
+    @JsonAnySetter
+    protected void add(String key, String value) {
+        properties.put(key, value);
+    }
+
     public Message execute(Message message) {
         return message;
     }
 
     public Message revert(Message message) {
         return message;
-    }
-
-    protected Map<String, String> properties = new HashMap<>();
-
-    @JsonAnySetter
-    protected void add(String key, String value) {
-        properties.put(key, value);
     }
 
 }
