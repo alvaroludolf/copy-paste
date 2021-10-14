@@ -32,3 +32,4 @@ bin
 .gradle
 gradle
 gradlew*
+/venv/
