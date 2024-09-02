@@ -1,11 +1,11 @@
-package br.com.loom.copypaste;
+package br.com.loom.copypaste.random;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static br.com.loom.copypaste.Location.*;
-import static br.com.loom.copypaste.WarehouseEntity.BERLIN;
-import static br.com.loom.copypaste.WarehouseEntity.PARIS;
+import static br.com.loom.copypaste.random.Location.*;
+import static br.com.loom.copypaste.random.WarehouseEntity.BERLIN;
+import static br.com.loom.copypaste.random.WarehouseEntity.PARIS;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package br.com.loom.copypaste;
+package br.com.loom.copypaste.random;
 
 public class HigherVersion {
 
